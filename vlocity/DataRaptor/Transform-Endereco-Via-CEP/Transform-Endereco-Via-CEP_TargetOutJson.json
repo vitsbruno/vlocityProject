@@ -1,0 +1,7 @@
+{
+    "bairro": "Text",
+    "cidade": "Text",
+    "estado": "Text",
+    "pais": "Text",
+    "rua": "Text"
+}
