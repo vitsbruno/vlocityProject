@@ -1,0 +1,139 @@
+[
+    {
+        "FormulaExpression": "SUBSTRING(FinalizedDate, 6, 10)+'-'+SUBSTRING(FinalizedDate, 3, 5)+'-'+SUBSTRING(FinalizedDate, 0, 2)+\"T00:00:00-03:00\"",
+        "FormulaResultPath": "FinalizedDateTransform",
+        "FormulaSequence": 1,
+        "GlobalKey": "SalvarDadosSinistroCustom9021",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "SalvarDadosSinistro",
+        "OmniDataTransformationId": {
+            "Name": "SalvarDadosSinistro",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/SalvarDadosSinistro",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "SalvarDadosSinistroCustom1916",
+        "InputFieldName": "ActualAmount",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "SalvarDadosSinistro",
+        "OmniDataTransformationId": {
+            "Name": "SalvarDadosSinistro",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/SalvarDadosSinistro",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ActualAmount__c",
+        "OutputObjectName": "Claim__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "SalvarDadosSinistroCustom999",
+        "InputFieldName": "ApprovedAmount",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "SalvarDadosSinistro",
+        "OmniDataTransformationId": {
+            "Name": "SalvarDadosSinistro",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/SalvarDadosSinistro",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ApprovedAmount__c",
+        "OutputObjectName": "Claim__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "SalvarDadosSinistroCustom7714",
+        "InputFieldName": "EstimatedAmount",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "SalvarDadosSinistro",
+        "OmniDataTransformationId": {
+            "Name": "SalvarDadosSinistro",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/SalvarDadosSinistro",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "EstimatedAmount__c",
+        "OutputObjectName": "Claim__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "SalvarDadosSinistroCustom7261",
+        "InputFieldName": "FinalizedDateTransform",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "SalvarDadosSinistro",
+        "OmniDataTransformationId": {
+            "Name": "SalvarDadosSinistro",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/SalvarDadosSinistro",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "FinalizedDate__c",
+        "OutputObjectName": "Claim__c",
+        "TransformValueMappings": "{\"\":\"\"}",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "SalvarDadosSinistroCustom3497",
+        "InputFieldName": "Id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "SalvarDadosSinistro",
+        "OmniDataTransformationId": {
+            "Name": "SalvarDadosSinistro",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/SalvarDadosSinistro",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "Claim__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "SalvarDadosSinistroCustom7906",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "SalvarDadosSinistro",
+        "OmniDataTransformationId": {
+            "Name": "SalvarDadosSinistro",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/SalvarDadosSinistro",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "Claim__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]
