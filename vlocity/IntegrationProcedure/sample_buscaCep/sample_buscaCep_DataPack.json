@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "sample_buscaCep_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "Busca CEP",
+    "OmniProcessElement": [
+        "sample_buscaCep_Element_HTTPAction1.json",
+        "sample_buscaCep_Element_DataRaptorTransformAction1.json",
+        "sample_buscaCep_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "sample_buscaCep",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sample_buscaCep_PropertySetConfig.json",
+    "SubType": "buscaCep",
+    "Type": "sample",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sample/buscaCep/Procedure",
+    "WebComponentKey": "7e4ed202-4832-2bd3-8464-4924d0d8ac07"
+}
