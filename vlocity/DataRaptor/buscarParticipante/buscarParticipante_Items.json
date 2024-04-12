@@ -26,7 +26,7 @@
     {
         "FilterGroup": 0,
         "FilterOperator": "LIMIT",
-        "FilterValue": "5",
+        "FilterValue": "4",
         "GlobalKey": "buscarParticipanteCustom4913",
         "InputObjectName": "Contact",
         "InputObjectQuerySequence": 1,
