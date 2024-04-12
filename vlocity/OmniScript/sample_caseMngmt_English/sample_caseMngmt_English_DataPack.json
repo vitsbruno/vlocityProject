@@ -1,0 +1,27 @@
+{
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "Name": "Sample Case Mngmt",
+    "OmniProcessElement": [
+        "sample_caseMngmt_English_Element_SelectAccountAndCase.json",
+        "sample_caseMngmt_English_Element_SelectAccount.json",
+        "sample_caseMngmt_English_Element_caseSelectableItem.json",
+        "sample_caseMngmt_English_Element_ManageCaseComments.json",
+        "sample_caseMngmt_English_Element_CaseComments.json",
+        "sample_caseMngmt_English_Element_CaseComment.json",
+        "sample_caseMngmt_English_Element_caseCommentManagement.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "sample_caseMngmt_English_PropertySetConfig.json",
+    "SubType": "caseMngmt",
+    "Type": "sample",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sample/caseMngmt/English",
+    "WebComponentKey": "32be8fed-1d30-f8ee-d50e-94f88d137af6"
+}
