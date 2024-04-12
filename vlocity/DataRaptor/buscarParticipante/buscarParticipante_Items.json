@@ -2,7 +2,7 @@
     {
         "FilterGroup": 0,
         "FilterOperator": "LIKE",
-        "FilterValue": "'a'",
+        "FilterValue": "'e'",
         "GlobalKey": "buscarParticipanteCustom6470",
         "InputFieldName": "Name",
         "InputObjectName": "Contact",
