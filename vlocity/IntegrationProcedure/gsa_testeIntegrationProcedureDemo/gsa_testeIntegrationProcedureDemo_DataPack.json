@@ -1,0 +1,20 @@
+{
+    "CustomJavaScript": "{}",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "testeIntegrationProcedureDemo",
+    "OmniProcessKey": "gsa_testeIntegrationProcedureDemo",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "gsa_testeIntegrationProcedureDemo_PropertySetConfig.json",
+    "SubType": "testeIntegrationProcedureDemo",
+    "Type": "gsa",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/gsa/testeIntegrationProcedureDemo/Procedure",
+    "WebComponentKey": "3c30d402-634c-8b98-14c7-4fad1c86ecab"
+}
